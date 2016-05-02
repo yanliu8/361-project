@@ -7,6 +7,7 @@ def verify(filenumber):
 	Class = []
 	testdata = []
 	testClass = []
+	
 	for i in range(1,11):
 		filename = 'matches/matches'+str(i)+'.json'
 		matches = open(filename, encoding="ISO-8859-1")
